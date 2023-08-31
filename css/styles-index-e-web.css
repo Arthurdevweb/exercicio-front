@@ -43,12 +43,12 @@ h1 {
     text-transform: uppercase;
     font-family: 'Phudu', cursive;
     border: crimson solid 5px;
-    border-radius: 8px ;
+    border-radius: 8px ; 
     padding: 11px;
-    
-    
-    
-
+    margin:40px auto;
+    width: 70%;
+    max-width: 800px;
+    min-width: 500px;
 }
 
 
