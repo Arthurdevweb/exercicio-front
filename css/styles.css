@@ -12,6 +12,7 @@ body {
     background-attachment: fixed;
     font-size: 18px;
     color: white;
+    text-align: justify;
 
 
 }
@@ -47,7 +48,7 @@ h1 {
     padding: 11px;
     margin:40px auto;
     width: 70%;
-    max-width: 800px;
+     max-width: 800px;
     min-width: 500px;
 }
 
@@ -55,7 +56,7 @@ h1 {
 h2 {
     font-family: 'Playfair Display', serif;
     border: crimson solid 2px;
-    border-radius: 8px;
+    border-radius: 8px 0 8px 0;
     box-shadow: red 0 0 5px;
     display: inline-block;
     padding: 8px;
@@ -67,10 +68,35 @@ p a {
 
     p a:hover {
         background-color:black;
-        color: crimson
+        
     }
 
+    nav a:hover {
+        background-color: black;
+        
+    }
 
+    nav a {
+        color: crimson;
+    }
+
+    li::marker {
+        content: none ;
+        content: "✔️ ";
+    
+        }
+
+       figure {
+        margin: 0;
+        text-align: center;
+       }
+
+       
+       
+       
+
+      
+        
 
 
 
