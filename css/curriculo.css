@@ -56,8 +56,63 @@ img {
     line-height: 1.4em;
 }
 
+.contato {
+    padding-top: 40px;
+}
+
+.title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contato ul {
+    position: relative;
+}
+
+.contato ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contato ul li .icones {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+.contato ul li span {
+    color: #fff;
+    font-weight: 300;
+}
+
+.contato.educacao li {
+    margin-bottom: 15px;
+}
+
+.contato.educacao h5 {
+    color:  #03a9f4;
+    font-weight: 500;
+}
+
+.contato.educacao h4:nth-child(2) {
+    color: #fff;
+    font-weight: 500;
+}
+
+.contato.educacao h4 {
+    color: #fff;
+    font-weight: 300;
+}
+
 .container .right_Side {
     position: relative;
     background: #fff;
     padding: 40px;
 }
+
